@@ -1,0 +1,394 @@
+[
+  {
+    "model": 1,
+    "key": "ID",
+    "pdu_address": 40002,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 1,
+    "key": "L",
+    "pdu_address": 40003,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 1,
+    "key": "Mn",
+    "pdu_address": 40004,
+    "register_count": 16,
+    "data_type": "string"
+  },
+  {
+    "model": 1,
+    "key": "Md",
+    "pdu_address": 40020,
+    "register_count": 16,
+    "data_type": "string"
+  },
+  {
+    "model": 1,
+    "key": "Opt",
+    "pdu_address": 40036,
+    "register_count": 8,
+    "data_type": "string"
+  },
+  {
+    "model": 1,
+    "key": "Vr",
+    "pdu_address": 40044,
+    "register_count": 8,
+    "data_type": "string"
+  },
+  {
+    "model": 1,
+    "key": "SN",
+    "pdu_address": 40052,
+    "register_count": 16,
+    "data_type": "string"
+  },
+  {
+    "model": 1,
+    "key": "DA",
+    "pdu_address": 40068,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 1,
+    "key": "Pad",
+    "pdu_address": 40069,
+    "register_count": 1,
+    "data_type": "pad"
+  },
+  {
+    "model": 103,
+    "key": "ID",
+    "pdu_address": 40070,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "L",
+    "pdu_address": 40071,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "A",
+    "pdu_address": 40072,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "AphA",
+    "pdu_address": 40073,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "AphB",
+    "pdu_address": 40074,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "AphC",
+    "pdu_address": 40075,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "A_SF",
+    "pdu_address": 40076,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "PPVphAB",
+    "pdu_address": 40077,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "PPVphBC",
+    "pdu_address": 40078,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "PPVphCA",
+    "pdu_address": 40079,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "PhVphA",
+    "pdu_address": 40080,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "PhVphB",
+    "pdu_address": 40081,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "PhVphC",
+    "pdu_address": 40082,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "V_SF",
+    "pdu_address": 40083,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "W",
+    "pdu_address": 40084,
+    "register_count": 1,
+    "data_type": "int16"
+  },
+  {
+    "model": 103,
+    "key": "W_SF",
+    "pdu_address": 40085,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "Hz",
+    "pdu_address": 40086,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "Hz_SF",
+    "pdu_address": 40087,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "VA",
+    "pdu_address": 40088,
+    "register_count": 1,
+    "data_type": "int16"
+  },
+  {
+    "model": 103,
+    "key": "VA_SF",
+    "pdu_address": 40089,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "VAr",
+    "pdu_address": 40090,
+    "register_count": 1,
+    "data_type": "int16"
+  },
+  {
+    "model": 103,
+    "key": "VAr_SF",
+    "pdu_address": 40091,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "PF",
+    "pdu_address": 40092,
+    "register_count": 1,
+    "data_type": "int16"
+  },
+  {
+    "model": 103,
+    "key": "PF_SF",
+    "pdu_address": 40093,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "WH",
+    "pdu_address": 40094,
+    "register_count": 2,
+    "data_type": "acc32"
+  },
+  {
+    "model": 103,
+    "key": "WH_SF",
+    "pdu_address": 40096,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "DCA",
+    "pdu_address": 40097,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "DCA_SF",
+    "pdu_address": 40098,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "DCV",
+    "pdu_address": 40099,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 103,
+    "key": "DCV_SF",
+    "pdu_address": 40100,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "DCW",
+    "pdu_address": 40101,
+    "register_count": 1,
+    "data_type": "int16"
+  },
+  {
+    "model": 103,
+    "key": "DCW_SF",
+    "pdu_address": 40102,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "TmpCab",
+    "pdu_address": 40103,
+    "register_count": 1,
+    "data_type": "int16"
+  },
+  {
+    "model": 103,
+    "key": "TmpSnk",
+    "pdu_address": 40104,
+    "register_count": 1,
+    "data_type": "int16"
+  },
+  {
+    "model": 103,
+    "key": "TmpTrns",
+    "pdu_address": 40105,
+    "register_count": 1,
+    "data_type": "int16"
+  },
+  {
+    "model": 103,
+    "key": "TmpOt",
+    "pdu_address": 40106,
+    "register_count": 1,
+    "data_type": "int16"
+  },
+  {
+    "model": 103,
+    "key": "Tmp_SF",
+    "pdu_address": 40107,
+    "register_count": 1,
+    "data_type": "sunssf"
+  },
+  {
+    "model": 103,
+    "key": "St",
+    "pdu_address": 40108,
+    "register_count": 1,
+    "data_type": "enum16"
+  },
+  {
+    "model": 103,
+    "key": "StVnd",
+    "pdu_address": 40109,
+    "register_count": 1,
+    "data_type": "enum16"
+  },
+  {
+    "model": 103,
+    "key": "Evt1",
+    "pdu_address": 40110,
+    "register_count": 2,
+    "data_type": "bitfield32"
+  },
+  {
+    "model": 103,
+    "key": "Evt2",
+    "pdu_address": 40112,
+    "register_count": 2,
+    "data_type": "bitfield32"
+  },
+  {
+    "model": 103,
+    "key": "EvtVnd1",
+    "pdu_address": 40114,
+    "register_count": 2,
+    "data_type": "bitfield32"
+  },
+  {
+    "model": 103,
+    "key": "EvtVnd2",
+    "pdu_address": 40116,
+    "register_count": 2,
+    "data_type": "bitfield32"
+  },
+  {
+    "model": 103,
+    "key": "EvtVnd3",
+    "pdu_address": 40118,
+    "register_count": 2,
+    "data_type": "bitfield32"
+  },
+  {
+    "model": 103,
+    "key": "EvtVnd4",
+    "pdu_address": 40120,
+    "register_count": 2,
+    "data_type": "bitfield32"
+  },
+  {
+    "model": 65535,
+    "key": "END_ID",
+    "pdu_address": 40122,
+    "register_count": 1,
+    "data_type": "uint16"
+  },
+  {
+    "model": 65535,
+    "key": "END_LENGTH",
+    "pdu_address": 40123,
+    "register_count": 1,
+    "data_type": "uint16"
+  }
+]
